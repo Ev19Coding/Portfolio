@@ -1,6 +1,6 @@
 @font-face {
     font-family: Poppins;
-    src: url(Fonts/Poppins-Regular.ttf);
+    src: url(Fonts/Poppins-Bold.ttf);
 }
 @font-face {
     font-family:Roboto ;
@@ -8,6 +8,7 @@
 }
 
 * {
+    /* border: #FF638A 3px solid; */
     margin: 0;
     padding: 0;
     /* border: #FF638A solid 1px; */
@@ -144,15 +145,16 @@ h1 {
 }
 .aboutmain{
     display:flex;
+    width: 100%;
     
     margin-top: 15%;
 
 }
 .abouttext{
-    
     margin-left: 5%;
-    float: left;
+    width: 50%;
 }
+
 .abouttext h1{
     font-size: 4rem;
 }
@@ -164,6 +166,69 @@ h1 {
     color: white;
 }
 .illustration{
-    
    width: 50%;
+   
+}
+
+.mind{
+    color: #FF638A;
+}
+.Contact h1{
+    font-size: 5rem;
+    margin-left: 5%;
+}
+.Contact{
+    width: 100%;
+}
+.bothsides{
+    display: flex;
+    margin-left: 5%;
+    border: #FF638A 2px solid;
+    
+}
+.leftside{
+    width: 50%;
+}
+.leftside img{
+    width:80%;
+}
+.rightside{
+    width: 50%;
+
+}
+.name-email{
+    display: flex;
+    /* border: #FF638A 2px solid; */
+    
+
+}
+.email{
+    margin-left: 10px;
+}
+input{
+    height: 59px;
+    width: 258px;
+    border-radius: 16px;
+    background-color: rgb(82, 70, 70);
+    opacity: 0.5;
+    border: none;
+    padding-left:12px;
+    font-family: poppins;
+    color: white;
+
+}
+label{
+    color: white;
+}
+textarea{
+    width: 594px; 
+    height: 323px;
+    border-radius: 16px;
+    background-color: rgb(82, 70, 70);
+    opacity: 0.5;
+    border: none;
+    padding-left:12px;
+    padding-top: 12px;
+    font-family: poppins;
+    color: white;
 }
