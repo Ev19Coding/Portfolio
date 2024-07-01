@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel="icon" type="image/png" sizes="32x32 " href="images/logo-clear.png">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-brands/css/uicons-brands.css'>
     <title>EvieDesign</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -21,34 +25,36 @@
                 <ul class="navItems">
 
                     <li><a href="#">Home </a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
                     <li id="noright"><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <hr>
         <main>
-            <div class="mainsection">
+            <section id="home">
+                <div class="mainsection">
 
-                <div class="Text">
-                    <img src="Vector 187 (1).png" alt="" height="250px" class="arrow">
-                    <h1>CREATIVE<br> FRONT-END
-                        WEB <br><span class="whitetext">DEVELOPER</span>
-                    </h1>
+                    <div class="Text">
+                        <img src="Vector 187 (1).png" alt="" height="250px" class="arrow">
+                        <h1>CREATIVE<br> FRONT-END
+                            WEB <br><span class="whitetext">DEVELOPER</span>
+                        </h1>
 
 
+                    </div>
+                    <div class="btns">
+                        <button class="btns_left"> Hire Me</button>
+                        <button>Download Cv &nbsp; <i class="fi fi-br-down-to-line"> </i></button>
+                    </div>
+                    <div class="imgs">
+                        <img src="images/undraw_designer_girl_re_h54c.svg" alt="Dummy img">
+                    </div>
                 </div>
-                <div class="btns">
-                    <button class="btns_left"> Hire Me</button>
-                    <button>Download Cv &nbsp; <i class="fi fi-br-down-to-line"> </i></button>
-                </div>
-                <div class="imgs">
-                    <img src="images/undraw_designer_girl_re_h54c.svg" alt="Dummy img">
-                </div>
-            </div>
-            <br>
+                <br>
+            </section>
     </section>
-    <section>
+    <section id="aboutme">
         <div class="aboutmain">
 
             <div class="abouttext">
@@ -92,22 +98,64 @@
                             <label for="name">Your Name</label><br>
                             <input type="text" id="name" name="name" placeholder="Name">
                         </div>
-                        
+
                         <div class="email">
                             <label for="email">Your Email</label><br>
                             <input type="email" id="email" name="email" placeholder="Email">
                         </div>
-                        
+
                     </div>
                     <br>
                     <label for="Message">Your Message</label><br>
                     <textarea name="textarea" id="tarea" placeholder="Message"></textarea>
-                    
+                    <button class="messagebtn"> Send Message &nbsp;<i class="fi fi-rs-paper-plane"> </i>
+                    </button>
                 </form>
 
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li> <a href="#"><i class="fi fi-rs-home"></i> Home </a></li>&nbsp;
+                <li> <a href="#aboutme"><i class="fi fi-rs-user-pen"></i> About Me </a></li>&nbsp;
+                <li> <a href="#contact"><i class="fi fi-rs-headset"></i>Contact </i></a></li>
+            </ul>
+        </div>
+
+        <br>
+        <br>
+        <div class="social-media">
+            <div class="icons-background">
+                <a href="#">
+                    <p><i class="fi fi-brands-instagram"></i></p>
+                </a>
+            </div>
+            <div class="icons-background">
+                <a href="">
+                    <p><i class="fi fi-brands-facebook"></i></p>
+                </a>
+            </div>
+            <div class="icons-background">
+                <a href="">
+                    <p><i class="fi fi-brands-linkedin"></i></p>
+                </a>
+            </div>
+
+            <div class="icons-background">
+                <a href="">
+                    <p><i class="fi fi-brands-tik-tok"></i></p>
+                </a>
+            </div>
+            <div class="icons-background">
+                <a href=""><i class="fi fi-brands-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
 
 
 
