@@ -44,9 +44,13 @@ nav h1 {
     margin-top: 10px;
 }
 
-ul {
+nav ul {
     list-style: none;
     display: flex;
+}
+ul i{
+
+    display: none;
 }
 
 nav li {
@@ -55,7 +59,7 @@ nav li {
 nav li.noright{
     padding-right:0px ;
 }
-nav .navItems a {
+.navItems a {
     text-decoration: none;
     justify-content: space-around;
     color: white;
@@ -121,8 +125,14 @@ button:hover{
     padding:15px 25px; ;
     background-color: white;
     color: #FF638A;
-    
     transition: 0.3s ease-in;
+}
+button a{
+    text-decoration: none;
+    color: #FF638A;
+}
+button a:hover{
+    color: #FF638A;
 }
 .btns_left{
     background-color:#FF638A;
@@ -136,8 +146,8 @@ button:hover{
     height: 240px;
 }
 .btns{
-    margin-top: -6%;
-    margin-left: 12%;
+    margin-top: -1%;
+    margin-left: 6%;
 }
 
 .whitetext {
@@ -151,9 +161,9 @@ h1 {
 .aboutmain{
     display:flex;
     width: 100%;
-    
     margin-top: 5%;
     padding-top: 15%;
+    
 
 }
 .abouttext{
@@ -173,7 +183,7 @@ h1 {
 }
 .illustration{
    width: 50%;
-   
+
 }
 
 .mind{
@@ -282,5 +292,40 @@ textarea{
     width: 53px;
     display: flex;
     justify-content: center;
-    vertical-align: ;
+    
+}
+@media screen and (max-width:480px){
+   
+    nav li {
+        
+        display:none;
+    }
+    ul i{
+        display: inline-block;
+        margin-right: 120%;
+    }
+    .bothsides{
+        display: block;
+    }
+    
+    .Text {
+        margin-left: 0;
+    }
+    .imgs {
+        width: 100px;
+        
+       
+        margin-top: 20%;
+    }
+    .mainsection {
+    
+        width:30%;
+        margin-left: 0;
+        display: block;
+        margin-bottom: 28%;
+    }
+    .btns{
+        padding-top: 5%;
+       
+    }
 }
