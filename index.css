@@ -259,6 +259,9 @@ textarea{
 .messagebtn i{
     margin-top: 2px;
 }
+.btn-message{
+
+}
 .footer{
     display: flex;
     justify-content: center;
@@ -298,7 +301,9 @@ textarea{
     
 }
 @media screen and (max-width:480px){
-    
+    body{
+        width: 100vw;
+    }
 
     nav {
         display: flex;
@@ -366,7 +371,7 @@ textarea{
     }
     .abouttext{
         margin-left: 10px;
-        width: 20%;
+        width: 80%;
     }
     
     
@@ -397,12 +402,18 @@ textarea{
         margin-left: 5%;
         padding-top: 10%;
     }
+    .messagebtn{
+        color: white;
+        background-color:#FF638A;
+        border-radius: 38px;
+        margin-top: 20px;
+    }
     .leftside img{
         display: none;
     }
     
     .rightside form{
-        width: 300px;
+        width: 400px;
     }
     .name-email{
         display: block;
