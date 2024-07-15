@@ -300,9 +300,11 @@ textarea{
     justify-content: center;
     
 }
+
 @media screen and (max-width:480px){
     body{
-        width: 100vw;
+        margin-left: 2%;
+        width: 99vw;
     }
 
     nav {
