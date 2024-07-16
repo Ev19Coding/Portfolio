@@ -168,6 +168,8 @@ h1 {
 .abouttext{
     margin-left: 5%;
     width: 50%;
+    /* background-color: #fecc93;
+    padding-left: 40px; */
 }
 
 .abouttext h1{
@@ -299,6 +301,18 @@ textarea{
     display: flex;
     justify-content: center;
     
+}
+.Copyright{
+    font-size: 10px;
+    color: palevioletred;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.yellow-text{
+    color:#FF638A;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width:480px){
@@ -439,7 +453,7 @@ textarea{
         display:block;
         
         
-        margin-left: 1%;
+        
         
         color:#FF638A;
         margin-top: 10%;
